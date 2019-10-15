@@ -5,18 +5,14 @@
 =				  =
 ===================================
 
-To use this theme you must install the emulationstation-dev branch.
-This theme uses the grid view exclusively (for now).
+To use this theme you must install the jrassa's emulationstation fork from here:
+https://github.com/jrassa/EmulationStation/releases/
 
 ---------------------------------
--  To install the dev branch    -
+-  To run in 4K                 -
 ---------------------------------
 
-Settings > Retropie setup > Manage Packages > Manage Experamental Packages
-
-Scroll down and install Emulationstation-Dev from source.  Once the application has compiled you will need to reboot your system, and you should now be running the correct version.  You can verify by pressing start on your controller and checking the version # that displays at the bottom of the screen.
-
-Next change the view type to Grid, then select Neo Geo Classic theme.
+emulationstation.exe --resolution 3840 2160  --no-splash
 
 ---------------------------------
 - Systems currently supported   -
